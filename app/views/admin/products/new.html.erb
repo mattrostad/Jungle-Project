@@ -12,6 +12,7 @@
     <div class="col-sm-6 col-sm-offset-1">
       <%= form_for [:admin, @product] do |form| %>
 
+   
         <% if form.object.errors.any? %>
           <div class="alert alert-danger">
             <strong>The following errors prevented saving:</strong>
