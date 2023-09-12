@@ -1,0 +1,9 @@
+ <tr>
+          <td colspan="2"> <%= Product.find(product_id).name %> </td>
+          <td><%= Product.find(product_id).price %> </td>
+          <td><%= image_tag Product.find(product_id).image.to_s, width: 200%>  </td>
+          <td><%= Product.find(product_id).description%>  </td>
+          <td><%= quantity %></td>
+          <td><%= total_line_price %></td>
+        </tr>
+      
